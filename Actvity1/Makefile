@@ -34,7 +34,7 @@ endif
 
 all:$(BUILD_DIR)
 # Compile the code and generate the ELF file
-	$(CC) -g -Wall -Os -mmcu=atmega328  $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
+	$(CC) -g -Wall -Os -mmcu=atmega328  $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
 
 $(BUILD_DIR):
 # Create directory to store the built files
