@@ -4,8 +4,8 @@
 
 int main(void)
 {
-    //Calling the system_init() function from Activity1.c
-    system_init();
+    //Calling the activity1() function from Activity1.c
+    activity1();
 
     return 0;
 }
