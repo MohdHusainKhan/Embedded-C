@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "../inc/Activity1.h"
+#include "Activity1.h"
 
 
 #define switch_1 !(PIND&(1<<PD2))
@@ -18,7 +18,7 @@ void pin_config()
     PORTD |=(1<<PD3);
 }
 
-int system_init(void)
+int activity1(void)
 {
     // calling pin_config() function.
     pin_config();
