@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "pin_config.h"
+#include "../inc/pin_config.h"
 int main(void)
 {
 
