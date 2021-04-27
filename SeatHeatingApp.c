@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "../inc/Activity1.h"
+#include "inc/Activity1.h"
 
 int main(void)
 {
