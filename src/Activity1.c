@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "Activity1.h"
+#include "../inc/Activity1.h"
 
 
 #define switch_1 !(PIND&(1<<PD2))
