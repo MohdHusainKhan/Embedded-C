@@ -24,6 +24,6 @@ void pin_config();
  * @brief Function will check the status of heater button and passenger seat.
  *
  */
-int system_init();
+int activity1();
 
 #endif // ACTIVITY1_H_INCLUDED
