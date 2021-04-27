@@ -3,8 +3,8 @@ PROJ_NAME = Embedded_C
 BUILD_DIR = Build
 
 # All Source code files
-SRC =src/main.c
-src/pin_config.c
+SRC =src/main.c\
+src/pin_config.c\
 
 # All header file paths
 INC = -I inc
