@@ -28,8 +28,7 @@ uint16_t ReadADC(uint8_t ch)
 int activity2(void)
 {
     InitADC();     // calling InitADC() function
-    uint16_t temp; // declaring 16 bit variable
-    temp = ReadADC(0);
+    ReadADC(0);
     _delay_ms(200); // Delay of 200 ms
     return 0;
 }
