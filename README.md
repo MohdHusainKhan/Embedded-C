@@ -24,7 +24,7 @@
 
 
 ## Activity 4
-![Final](https://github.com/MohdHusainKhan/Embedded-C/tree/main/Images/Activity4)
+![Final](https://github.com/MohdHusainKhan/Embedded-C/blob/main/Images/Activity4/Activity4.PNG)
 
 #### CI and Code Quality
 
