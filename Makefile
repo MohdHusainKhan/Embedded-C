@@ -3,7 +3,7 @@ PROJ_NAME = Embedded_C
 BUILD_DIR = Build
 
 # All Source code files
-SRC =SeatHeatingAPP.c\
+SRC =SeatHeatingApp.c\
 src/Activity1.c\
 src/Activity2.c\
 src/Activity3.c\
