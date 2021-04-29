@@ -3,18 +3,18 @@ PROJ_NAME = Embedded_C
 BUILD_DIR = Build
 
 # All Source code files
-SRC =main.c\
+SRC =SeatHeatingAPP.c\
 src/Activity1.c\
 src/Activity2.c\
 src/Activity3.c\
-src/Activity4.c
+src/Activity4.c\
 
 # All header file paths
 INC = -I inc
 
-
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
+
 # Correct the path based on OS
    FixPath = $(subst /,\,$1)
 # Name of the compiler used
