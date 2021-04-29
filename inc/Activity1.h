@@ -2,7 +2,7 @@
 /**
  * @file pin_config.h
  * @author Husain Khan
- * @brief Header file for defining pin config() function
+ * @brief Header file for defining pin config() function and Activity1()
  * @version 0.1
  * @date 2021-04-27
  *
@@ -12,7 +12,6 @@
 
 #ifndef ACTIVITY1_H_INCLUDED
 #define ACTIVITY1_H_INCLUDED
-
 
 /**
  * @brief Will define configuration of several pins.
