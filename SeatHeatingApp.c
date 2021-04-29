@@ -1,12 +1,20 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "inc/Activity1.h"
+#include "Activity1.h"
+#include "Activity2.h"
+#include "Activity3.h"
+#include "Activity4.h"
 
 int main(void)
 {
-    //Calling the activity1() function from Activity1.c
+    /**
+     * @brief Calling All activities functions.
+     * 
+     */
     activity1();
+    activity2();
+    activity3();
+    activity4(0);
 
     return 0;
 }
-
