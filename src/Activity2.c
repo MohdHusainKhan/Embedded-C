@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "Activity2.h"
+#include "../inc/Activity2.h"
 
 void InitADC()
 {
