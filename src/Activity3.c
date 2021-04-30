@@ -1,8 +1,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "Activity3.h"
-#include "Activity2.h"
-#include "Activity4.h"
+#include "../inc/Activity3.h"
+#include "../inc/Activity2.h"
+#include "../inc/Activity4.h"
 
 unsigned volatile temperature; // declaring variable temperature
 
