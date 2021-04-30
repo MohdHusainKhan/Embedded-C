@@ -1,8 +1,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "Activity1.h"
-#include "Activity2.h"
-#include "Activity3.h"
+#include "../inc/Activity1.h"
+#include "../inc/Activity2.h"
+#include "../inc/Activity3.h"
 
 #define switch_1 !(PIND & (1 << PD2))
 #define switch_2 !(PIND & (1 << PD3))
