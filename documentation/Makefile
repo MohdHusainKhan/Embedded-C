@@ -1,4 +1,4 @@
-DOXY_FILE = Embedded-c doxy
+DOXY_FILE = Embedded-C 
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)
